@@ -29,14 +29,12 @@ class SimpleLabelAndButton extends StatelessWidget {
               ),
               SizedBox(height: 20), // Space between label and button
               // Button
-              WebViewButtonExample(),
-              /*
               ElevatedButton(
                 onPressed: () {
                   print("Button clicked!");
                 },
                 child: Text("Click Me"),
-              )*/
+              ),
             ],
           ),
         ),
