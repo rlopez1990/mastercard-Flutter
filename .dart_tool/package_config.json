@@ -224,6 +224,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "pool",
       "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/pool-1.5.1",
       "packageUri": "lib/",
@@ -386,6 +392,30 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/webview_flutter-4.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "webview_flutter_android",
+      "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/webview_flutter_android-4.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/webview_flutter_platform_interface-2.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "webview_flutter_wkwebview",
+      "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.16.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///Users/raul.lopez/.pub-cache/hosted/pub.dev/yaml-3.1.2",
       "packageUri": "lib/",
@@ -398,7 +428,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-11-23T15:58:25.776057Z",
+  "generated": "2024-11-23T19:43:49.520778Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///Users/raul.lopez/development/flutter",

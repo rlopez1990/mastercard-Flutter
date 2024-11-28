@@ -4,8 +4,9 @@
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
-void main() => runApp(SimpleLabelAndButton());
+cleavoid main() => runApp(SimpleLabelAndButton());
 
 class SimpleLabelAndButton extends StatelessWidget {
   @override
@@ -38,6 +39,19 @@ class SimpleLabelAndButton extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class WebViewScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("Local HTML")),
+      body: WebView(
+        initialUrl: 'assets/index.html', // Load local HTML file
+        javascriptMode: JavascriptMode.unrestricted,
       ),
     );
   }
